@@ -9,7 +9,6 @@ START=$(date +%s)
 echo
 echo -e "\e[0;33m 1. Linux Kernel Information////// \e[0m"
 echo
-uname -a
 echo
 echo "###############################################"
 echo
@@ -17,8 +16,7 @@ echo -e "\e[0;33m 2. Current User and ID information////// \e[0m"
 echo
 whoami
 echo
-id
-echo
+idecho
 echo "###############################################"
 echo
 echo -e "\e[0;33m 3.  Linux Distribution Information///// \e[0m"
